@@ -1,0 +1,166 @@
+.Content {
+	color: #4f4f4f;
+}
+
+.full-bg-welkom{
+	background: #582104;
+	color: #ffffff;
+	text-align: center;
+	font-weight: 400;
+}
+
+.Content h2{
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.post h2{
+	font-size: 30px;
+	font-weight: 400;
+	color: #4f4f4f;
+}
+
+.post p{
+	color: #4f4f4f;	
+}
+
+.box h5{
+	font-size: 18px;
+	font-weight: 400;
+	color: #4f4f4f;	
+}
+
+.hr-margin{
+	border:1px solid #dcdcdc;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.box{
+	text-align: center;
+}
+
+.box a{
+	background: #f58026;
+	padding: 10px;
+	color: #ffffff;
+	border-radius: 5px;
+}
+
+.box p{
+	margin-bottom: 40px;
+}
+
+.nieuws-box{
+	background: #f1f1f1;
+	border-radius: 5px;
+	margin-top: 35px;
+	padding-bottom: 50px;
+	padding-top: 25px;
+}
+
+.nieuws-title{
+	font-size: 30px;
+	font-weight: 400;	
+	color: #4f4f4f;
+	margin-left: 17px;
+}
+
+.blog_title{
+	color: #582104;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+.nieuws-box a{
+	color: #4f4f4f;
+	margin-left: 15px;
+}
+
+#gform_submit_button_1{
+	background: #f58026;
+	padding: 10px;
+	color: #ffffff;
+	border:0px;
+	border-radius: 5px;
+}
+
+.blog-area a{
+	color: #4f4f4f;
+}
+
+.blog-area p{
+	color: #582104;
+	margin-top: 20px;
+}
+
+ .blog
+ {
+   display: none;
+ }
+
+ .blog:nth-of-type(-n+3){
+   display: block;
+ }
+
+ .blog-sidebar{
+    display: none;	
+ }
+
+ .blog-sidebar:nth-of-type(-n+3){
+   display: block;
+ }
+
+  .show-all{
+ 	width: 100%;
+	background-color: #f48022;
+	color: #ffffff;
+	border: 0px;
+	border-radius: 5px;
+	line-height: 10px;
+	padding: 10px;
+	height: 50px;
+	outline: none;
+	margin-top: 50px;
+ }
+
+.diensten-area a{
+	background: #e4e4e4;
+	padding: 7px;
+	display: block;
+	margin-top: 14px;
+	color: rgb(79, 79, 79);
+}
+
+//App pagina
+.google-play{
+   display: block;
+   margin-top: 30px;
+}
+
+.qr_code{
+  width: 200px;
+  margin-top: 30px;
+}
+
+ @media all and (max-width: 1025px) { 
+ 	.slider-inhoud{
+ 		display: none;
+ 	}
+}
+
+ @media all and (max-width: 1000px) { 
+	.menu-0{
+		width: 100% !important;
+	}
+}
+
+ @media all and (max-width: 600px) { 
+	.full-bg-welkom h4{
+		font-size: 20px;
+	}
+
+	.box{
+		margin-bottom: 50px;
+	}
+}

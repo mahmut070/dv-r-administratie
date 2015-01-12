@@ -1,0 +1,84 @@
+.Footer {
+	background: #582104;
+	margin-top: 40px;
+}
+
+.Footer h4{
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.Footer p{
+	color: #ffffff;
+
+}
+
+.footer-box-child{
+	float: left;
+	margin-right: 28px;
+}
+
+.footer-box-child-right{
+	float:right;
+}
+
+.social-media-button{
+	width: 40px;
+	margin-top: 15px;
+}
+
+.twitter{
+	margin-left:15px;
+}
+
+.ecabo{
+	width: 41px;
+	margin-left: 20px;
+}
+
+// RESPONSIVE FOOTER
+.Footer-inner .widget {
+	@include span-columns(4);
+	@media screen and(max-width: 980px){
+		@include span-columns(12);
+	}
+}
+
+.Footer-inner {
+}
+
+//style the widgets
+.Footer-inner .widget {
+
+}
+
+.logo-footer{
+	margin-top: 26px;
+}
+
+.hr-footer{
+	margin-top: -15px;
+	border: none;
+    height: 1px;
+    color: #ffffff; /* old IE */
+    background-color: #ffffff; /* Modern Browsers */
+}
+
+.menu-0{
+	width: 221px;
+}
+
+.Socket{
+	background: #280f03;
+	text-align: center;
+	color: #ffffff;
+}
+
+.Socket a{
+	color: #024c8d;
+}
+
+.oranje-tekst{
+	color: #f9971a;
+}
